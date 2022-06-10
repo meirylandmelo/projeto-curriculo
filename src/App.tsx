@@ -11,8 +11,8 @@ function App() {
     {
       nome: 'Meiryland Melo',
       ocupacao: 'Developer frontend jr',
-      resumo: '',
-      perfilProfissional: 'Psicóloga por formação e aspirante a desenvolvedora front-end (HTML, CSS, JAVASCRIPT). Me reinventar, buscando sempre adquirir novos conhecimentos e estar sempre em movimento é o que eu venho buscando para crescer como pessoa e profissionalmente. ',
+      resumo: 'João Pessoa - PB',
+      perfilProfissional: 'Formada em psicologia, estou em transição de carreira. Atualmente, estudante de desenvolvimento web full stack na Trybe. Me reinventar, buscando sempre adquirir novos conhecimentos e estar sempre em movimento é o que eu venho buscando para crescer como pessoa e profissionalmente.',
       contatos: [
         {
           id: 1,
@@ -54,25 +54,25 @@ function App() {
       cursos: [
         {
           id: 1,
+          curso: 'Desenvolvimento Web Full Stack',
+          periodo: 'Agosto de 2021 - Atualmente',
+          empresa: 'Trybe',
+          local: 'Online',
+          conteudo: 'HTML, CSS, JavaScript, React, TypeScript, Redux, Jest, MySQL, node.js, Docker'
+        },
+        {
+          id: 2,
           curso: 'React',
-          periodo: 'Janeiro de 2020 - Atualmente',
+          periodo: 'Janeiro de 2021 - Março de 2021',
           empresa: 'Campinas Tech Talents',
           local: 'Campinas-SP',
           conteudo: 'JavaScript, React, TypeScript, Redux.'
         },
         {
-          id: 2,
-          curso: 'Kotlin',
-          periodo: 'Outubro 2020 - Novembro 2020',
-          empresa: 'Woman Can Code',
-          local: 'Campinas-SP',
-          conteudo: 'MVVM, Consumo de APIs.'
-        },
-        {
           id: 3,
           curso: 'Frontend',
-          periodo: 'Outubro 2019 - Dezembro 2020',
-          empresa: 'Woman Can Code',
+          periodo: 'Outubro 2019 - Dezembro 2019',
+          empresa: '{Reprograma}',
           local: 'Online',
           conteudo: 'HTML, CSS, Bootstrap, Git e GitHub, JavaScript, Jquery e orientação profissional.'
         }
